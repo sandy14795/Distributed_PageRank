@@ -1,10 +1,10 @@
-1. Pre-requisites - 
+# Pre-requisites - 
 
 Wiki articles edge data needs to be present of the hdfs file system. The below command can be used to copy the files/folder from local to hdfs : 
 
 hadoop fs -put -r /path/to/local/folder hdfs://<hdfs name node ip>:9000/path/to/dest/folder
 
-2. Instructions to run -
+# Instructions to run -
 
 Assuming spark is present in the same folder, the below command can be used to run the spark job :
 
